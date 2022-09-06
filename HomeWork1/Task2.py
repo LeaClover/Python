@@ -14,3 +14,9 @@ y = int(input('Введите значение y: '))
 z = int(input('Введите значение z: '))
 
 check(x, y, z)
+
+
+# or x in range(2):
+#     for y in range(2):
+#         for z in range(2):
+#             print((not(x or y or z)) == (not(x) and not(y) and not(z)))
