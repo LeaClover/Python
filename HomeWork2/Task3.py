@@ -9,3 +9,14 @@ def divisor(n):
 
 n = int(input('Введите число N: '))
 print(f'Наименьший натуральный делитель: {divisor(n)}')
+
+# Еще вариант
+# n = int(input())
+# flag = True
+# i = 2
+# while flag:
+#     if n % i == 0:
+#         print(i)
+#         flag = False
+#     i += 1
+
