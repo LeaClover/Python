@@ -24,3 +24,21 @@ for i in students:
         count += 1
 
 print(f'Ваша позиция по росту среди учеников расположенных по убыванию равна {count}')
+
+# Второй вариант
+# n = int(input())
+# arr_rost = list()
+
+# for i in range(n):
+#     rost = int(input())
+#     arr_rost.append(rost)
+    
+# # имя_списка.sort()
+# # sorted(имя_списка)
+# my_rost = int(input())
+
+# j = 1
+# for i in arr_rost:
+#     if my_rost <= i:
+#         j += 1
+# print(j)
