@@ -44,3 +44,20 @@ array_sum = []
 array_sum = sum(bush, n)
 print(f'Сумма черники с куста и с кустов слева и справа: {array_sum}')
 print(f'Сумма максимального количества ягод, которые можно собрать за один заход собирающего модуля равна: {max_sum(array_sum)}')
+
+
+# Второй вариант
+# n = int(input())
+# arr = list()
+# for i in range(n):
+#     # k = int(input())
+#     arr.append(int(input()))
+
+# # [1, 2, 3, 4]
+# # -4 -3 -2 -1 
+# # maximum = 0
+# arr_count = list()
+# for i in range(len(arr) - 1):
+#     arr_count.append(arr[i - 1] + arr[i] + arr[i + 1])
+# arr_count.append(arr[-2] + arr[-1] + arr[0])
+# print(max(arr_count))
