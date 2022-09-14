@@ -23,3 +23,35 @@ for i in coins:
 
 print(coins)
 change_coins(coins, n)
+
+
+# Еще 2 варианта решения
+# 1)
+
+# n = int(input())
+# gerb = 0
+# orel = 0
+# for i in range(n):
+#     k = int(input())
+#     if k == 0:
+#         gerb += 1
+#     else:
+#         orel += 1
+
+# print(min(gerb, orel))
+# 
+# 2)
+# n = int(input())
+# gerb = 0
+# orel = 0
+# for i in range(n):
+#     k = int(input())
+#     if k == 0:
+#         gerb += 1
+#     else:
+#         orel += 1
+
+# if gerb < orel:
+#     print(gerb)
+# else:
+#     print(orel)
