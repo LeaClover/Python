@@ -1,0 +1,1 @@
+Polynomial with degree k = 5: 55*x^5 + 63*x^4 + 83*x^3 + 60*x^2 + 69*x + 94 = 0
