@@ -1,0 +1,1 @@
+Polynomial with degree k = 3: 39*x^3 + 20*x^2 + 45*x + 92 = 0
