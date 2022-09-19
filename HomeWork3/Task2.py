@@ -32,3 +32,17 @@ numbers = []
 
 print(fill_list(numbers))
 print_product_of_two(numbers)
+
+# Еще вариант
+# list_1 = [3, 2, 4, 5, 6, 7]
+# # 3 * 6 = 18
+# # 2 * 5 = 10
+# # 4 * 4 = 16
+# len_list = 0
+# if len(list_1) % 2 == 0:
+# len_list = len(list_1) // 2
+# else:
+# len_list = len(list_1) // 2 + 1
+
+# for i in range(len_list):
+# print(list_1[i] * list_1[len(list_1) - 1 - i])
