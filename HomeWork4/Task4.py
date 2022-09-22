@@ -43,3 +43,65 @@ print(str_coeff)
 
 path1 = 'polymonial1.txt'
 pull_in_file(get_polynomial(str_coeff, k), path1)
+
+
+## Еще вариант
+# from random import randint as rd
+
+
+# k = int(input())
+
+# arr = list()
+# for i in range(k, 0, -1):
+#     x = rd(-100, 100)
+#     if x > 0 and i != k:
+#         arr.append(f'+{x}*x^{i}')
+#     else:
+#         arr.append(f'{x}*x^{i}')
+        
+# x = rd(-100, 100)
+# if x > 0 and i != k:
+#     arr.append(f'+{x}')
+# else:
+#     arr.append(f'{x}')
+# arr.append(' = 0')
+# print(''.join(arr))
+
+
+## Еще один вариант
+
+# import random
+
+# k = int(input('Введите степень: '))
+# cof = []
+# for i in range(k + 1):
+#     k = random.randint(0, 100)
+#     cof.append(str(k))
+    
+# print(cof)
+# arr = []
+# utf = {0: "\u2070", 1: "\u00B9",2: "\u00B2",3: "\u00B3", 4: "\u2074", 5: "\u2075",
+#        6: "\u2076", 7: "\u2077", 8: "\u2078", 9: "\u2079"}
+# for i in range(len(cof) - 1, -1, -1):
+#     if i <= 9:
+#         arr.append('x' + utf[i] + "+")
+#     if i > 9:
+#         a = i // 10
+#         b = i % 10
+#         arr.append('x'+utf[a]+utf[b]+"+")
+# arr.append('x+')
+# arr.append('')
+# print(arr)
+# arr_new = []
+
+# for i in range(len(cof)):
+#     arr_new.append(cof[i] + arr[i])
+# print(arr_new)
+
+# exs = "".join(arr_new)
+# print(exs)
+
+# data = open('file2.txt', 'w', encoding='utf-8')
+# data.write(exs)
+# data.close()
+
