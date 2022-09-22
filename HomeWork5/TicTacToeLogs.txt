@@ -1,0 +1,42 @@
+* * *
+* * *
+* * *
+First player turn! --> O
+Enter 2 numbers using a "space" button (for 1 to 3).
+First player turn! --> O
+['1', '1']
+O * *
+* * *
+* * *
+Second player turn! --> X
+['3', '1']
+O * *
+* * *
+X * *
+First player turn! --> O
+['3', '1']
+Incorrect! This field is not empty!['3', '3']
+O * *
+* * *
+X * O
+Second player turn! --> X
+['2', '2']
+O * *
+* X *
+X * O
+First player turn! --> O
+['1', '3']
+O * O
+* X *
+X * O
+Second player turn! --> X
+['1', '2']
+O X O
+* X *
+X * O
+First player turn! --> O
+['2', '3']
+O X O
+* X O
+X * O
+First player win!
