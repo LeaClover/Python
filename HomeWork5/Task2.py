@@ -72,7 +72,6 @@ for i in range(0, len(matrix)):
                             logs.write(f'{matrix[i][j]} ')
                     print()
                 turn = 1
-                i = j = 0
             elif turn == 1:
                 print('Ход второго игрока! --> X')
                 logs.write('Second player turn! --> X\n')
@@ -96,7 +95,6 @@ for i in range(0, len(matrix)):
                             logs.write(f'{matrix[i][j]} ')
                     print()
                 turn = 0
-                i = j = 0
 logs.close()
 
 # Второй вариант
